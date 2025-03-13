@@ -1,0 +1,50 @@
+/* apply */
+.apply{
+    display: flex;
+    width: 100%;
+    height: 45rem;
+    background: linear-gradient(to right, rgb(252, 47, 47),rgb(69, 69, 252));
+  }
+  .inputs{
+    display: grid;
+  }
+  .apply-box{
+    margin: 5rem 32rem;
+    text-align: center;
+    box-shadow: 1px 5px 20px black;
+    height: 30rem;
+    width: 28rem;
+  }
+  .apply-box h2{
+    margin-top: 2rem;
+    color: whitesmoke;
+  }
+  
+  .inputs input{
+    height: 3rem;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    width: 20rem;
+    font-size: 1.5rem;
+  
+  }
+  .inputs select{
+    height: 3rem;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    width: 20rem;
+    font-size: 1.3rem;
+  }
+  .inputs .sub-btn{
+    width: 10rem;
+    margin-left: 9rem;
+    border-radius: 20px;
+    background: #3234a8;
+    color: white;
+    font-weight: 700;
+    box-shadow: 1px 5px 8px black;
+    transition: 0.4s ease-in-out;
+  }
+  .inputs .sub-btn:hover{
+    transform: scale(1.1);
+  }
