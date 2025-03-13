@@ -281,7 +281,97 @@ nav{
 
 
 /* schedule */
-.schedule{
+
+.schedule {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.schedule h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.schedule-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.schedule-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.class-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  text-align: center;
+}
+
+.class-box img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.class-box h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.fees-box {
+  background-color: #ffcc00;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.fees-box h1 {
+  font-size: 1.8rem;
+  color: #222;
+  margin: 0;
+}
+
+.fees-box h4 {
+  font-size: 1rem;
+  color: #444;
+  margin-top: 5px;
+}
+
+.class-box p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.class-box-btn {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+
+.class-box-btn:hover {
+  background-color: #e65c00;
+}
+
+
+/* .schedule{
   width: 100%;
   height: 46rem;
 }
@@ -294,26 +384,28 @@ nav{
 }
 .schedule-container{
   display: flex;
+  width: 100%;
+  
 }
 .schedule-container img{
-  width: 30%;
-  height: 39rem;
-  margin-left: 2.6rem;
+  width: 28%;
+  height: 37rem;
+  margin-left: 2rem;
   border-radius: 40px;
   background: white;
 }
 .class-box{
   margin-top: 2rem;
-  margin-left: 3rem;
+  margin-left: 0.3rem;
   border: 1px solid transparent;
-  width: 27rem;
+  width: 20rem;
   height: 36rem;
   border-radius: 30px;
   box-shadow: 2px 8px 15px black;
 }
 .class-box img{
-  height: 5rem;
-  width: 5rem;
+  height: 4rem;
+  width: 4rem;
   padding: 0.3rem;
   margin-left: 10rem;
 }
@@ -352,23 +444,22 @@ nav{
   margin-top: 15px;
   color: #2b2929;
 }
-.class-box-btn{
+.class-box button{
   margin: 2rem 9rem;
   width: 9rem;
   height: 3rem;
   font-size: 20px;
   font-weight: 700;
   color: whitesmoke;
-  padding: 8px ;
   border: 1px solid transparent;
   border-radius: 15px;
   background: rgb(23, 62, 107);
   transition: 0.3s ease-in-out;
 }
-.class-box-btn:hover{
+.class-box button:hover{
   transform: scale(1.1);
   cursor: pointer;
-}
+} */
 
 
 /* offer */
@@ -383,7 +474,7 @@ nav{
   height: 13rem;
   width: 70rem;
   margin-top: 3rem;
-  margin-left: 11.5rem;
+  margin-left: 9rem;
   align-items: center;
   border: 1px solid transparent;
   box-shadow: 1px 1px 25px rgb(31, 37, 37);
@@ -432,7 +523,7 @@ nav{
   display: grid;
   height: 15rem;
   width: 75rem;
-  margin-left: 9rem;
+  margin-left: 4.5rem;
   background: linear-gradient( to right,rgb(123, 151, 189),rgb(194, 194, 78));
   border-radius: 40px;
   box-shadow: 8px 1px 18px rgb(31, 37, 37);
