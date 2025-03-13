@@ -8,7 +8,7 @@ import Tool6 from './tools/framer.avif'
  
 function Tools() {
   return (
-    <div className='tools'>
+    <section id='tools'>
         <div className="tools-container">
             <h2>Tools we use</h2>
 
@@ -23,7 +23,7 @@ function Tools() {
 
         </div>
 
-    </div>
+    </section>
   )
 }
 

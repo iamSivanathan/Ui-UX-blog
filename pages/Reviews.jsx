@@ -4,7 +4,7 @@ import { faStar,faUser} from '@fortawesome/free-solid-svg-icons'
 
 function Reviews() {
   return (
-<div className='reviews'>
+<section id='reviews'>
 
   <h1>Reviews</h1>
 
@@ -41,7 +41,7 @@ function Reviews() {
   <i><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></i>
   </div>
 </div>  
-</div>
+</section>
 )
 }
 
